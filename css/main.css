@@ -1,0 +1,88 @@
+.masthead {
+	background-color: #CCCCCC;
+}
+
+.masthead, .add-area, .list-area {
+	text-align: center;
+}
+
+.fa {
+	margin-top: 0.25em;
+	margin-bottom: 0px;
+	height: 1.25em;
+	width: 1.25em;
+	border: 0.05em dashed black;
+	border-radius: 1em;
+	color: #666699;
+}
+
+.fa-list-alt {
+	position: relative;
+	top: 0.15em;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 4em;
+	font-weight: bolder;
+	margin-top: 0.1em;
+	color: #666699;
+}
+
+.reset {
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.75em;
+	font-weight: bolder;
+	margin: 1em auto;
+	border-radius: 1.25em;
+	border: 0.2em dashed #666699;
+	background-color: white;
+	line-height: 1.3em;
+}
+
+.reset:hover {
+	cursor: pointer;
+	background-color: #666699;
+}
+
+.instructions {
+	margin: 1em 1em;
+}
+
+h2 {
+	font-family: 'Goudy Bookletter 1911', serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: 666699;
+}
+
+input {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	border-radius: 1.25em;
+	border-style: dashed;
+	border-width: medium;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.list-area {
+	background-color: #CCCCCC;
+}
+
+.names {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 2em;
+	margin: 0.25em auto;
+	color: #666699;
+}
+
+.user-values {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0.1em;
+}
+
