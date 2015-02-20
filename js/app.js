@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 	$('#add-items').keypress(function(evt) {
 		if (evt.keyCode == 13) {
@@ -5,15 +6,11 @@ $(document).ready(function() {
 			$('#add-items').val('');
 		}
 	});
+	$('.list-area ul').on('click', '.x-mark', deleteItem);
+	function deleteItem() {
+		$(this).parent().remove();
+	}
 	$('.reset').click(function() {
 		$('.user-values').remove();
-	});
-	$('.x-mark').click(function() {
-		alert('X mark clicked');
-		$('user-values').remove();
-	});
-	$(':checkbox').click(function() {
-		alert('Checkbox clicked');
-		$('.user-values').css("text-decoration", "line-through");
 	});
 });

@@ -1,4 +1,4 @@
-.masthead {
+body {
 	background-color: #CCCCCC;
 }
 
@@ -27,6 +27,10 @@ h1 {
 	font-weight: bolder;
 	margin-top: 0.1em;
 	color: #666699;
+}
+
+.add-area {
+	background-color: white;
 }
 
 .reset {
@@ -66,11 +70,6 @@ input {
 	margin-bottom: 0.5em;
 }
 
-.list-area {
-	background-color: #CCCCCC;
-	height: auto;
-}
-
 .names {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bolder;
@@ -90,14 +89,13 @@ input {
 	font-family: 'Raleway', sans-serif;
 	font-weight: bold;
 	font-size: 1.5em;
-	margin-bottom: 0.1em;
-	margin-left: 25em;
-	margin-right: 25em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 22%;
+	margin-right: 22%;
+	height: 1.1em;
 	background-color: white;
-	margin-top: 0.1em;
 	border-radius: 1em;
-	border-style: dashed;
-	border-color: black;
 }
 
 #checkbox {
